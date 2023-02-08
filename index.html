@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> Grocery shopping list </title>
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <script async src="./app.js"></script>
+</head>
+<body>
+    <header>
+        Grocery shopping list
+    </header>
+    <main>
+        <section id="header-box">
+            <input type="text" id="input-add-item" placeholder="Add new item ...">
+            <button id="btn-add-item"> <img src="./assets/plus_orange.svg"> </button>
+        </section> 
+
+        <section id="body-box">
+            <article class="lists">
+                <ul id="shopping-list">
+                    <li> Example item 
+                        <button class="btn-delete-item-red"><img src="./assets/icon_delete_red.svg"></button>
+                        <button class="btn-buy-item"><img src="./assets/icon_checkbox_unclicked.svg"></button>
+                    </li>
+                </ul>
+            <hr size="2">
+                <ul id="in-cart-list">
+                    <li> Example item 
+                        <button class="btn-delete-item-grey"><img src="./assets/icon_delete_grey.svg"></button>
+                        <button class="btn-unbuy-item"><img src="./assets/icon_bought_clicked.svg"></button>
+                    </li>
+                </ul> 
+            </article>
+            <button class="btn-delete-all-items" onclick="removeAll()"> Delete all items </button>
+        </section>
+
+    </main>
+</body>
+</html>
+
+
+<!-- https://www.codehim.com/vanilla-javascript/simple-grocery-list-app-in-javascript/ -->
+
