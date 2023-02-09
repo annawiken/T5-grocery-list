@@ -74,11 +74,11 @@ function removeAll() {
 
 
 /* 3) Trykk på 'btn-buy-item' for å flytte en vare fra 'shopping-list' til 'in-cart-list' */
-/* Her må jeg få listelementer med knapper til å fungere, før denne kan fungere */
+// Fungerer ikke
 /* https://stackoverflow.com/questions/40290096/moving-items-between-two-lists-in-javascript */
 
 document.addEventListener("DOMContentLoaded", function() {
-    let buyButton = document.getElementById('.btn-buy-item');
+    let buyButton = document.getElementById('btn-buy-item');
     let shoppingList = document.getElementById('shopping-list'); 
     let cartList = document.getElementById('in-cart-list'); 
 
@@ -88,7 +88,7 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 
     for (let i = 0; i < buyButton.length; i++) {
-        buyButton[i].addEventListener("click", moveToCartList);
+        buyButton[i].addEventListener('click', moveToCartList);
     }
 });
 
