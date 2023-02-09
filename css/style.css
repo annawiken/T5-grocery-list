@@ -9,10 +9,11 @@ html {
 }
 
 
-/* GENERAL STYLING */ 
+/* BACKGROUND OUTSIDE OF FUNTIONAL APP AREA */ 
 body {
     background-color: #FFFDFA;
 }
+
 
 /* TEXT STYLING */
 .bought {
@@ -23,6 +24,7 @@ h3 {
     font-family: 'Inter', sans-serif;
     font-size: 1rem;
     color: #1a1a1a;   
+    padding-left: 4.25rem;    
 }
 
 
@@ -90,12 +92,18 @@ header {
     box-shadow: 1px 2.5px 4px 1px #e5e5e5; /* drop shadow for elements */
 }
 
+.flex-delete-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
 .btn-delete-all-items:hover {
     background-color: #cd3d3d;
     cursor: pointer;
 }
 
-.btn-delete-item-red, .btn-buy-item, .btn-delete-item-grey, .btn-unbuy-item {
+.btn-delete-item-red, .btn-buy-item {
     border: none;
     background: none;
     margin: 0 0.4rem;
@@ -112,14 +120,14 @@ header {
     padding: 2rem 0 0 0;
 }
 
-#body-box .lists ul {
+#body-box ul {
     font-family: 'Inter', sans-serif;
     font-size: 1rem;
     list-style: none;
     align-content: center;
 }
 
-#body-box .lists ul li {
+#body-box ul li {
     background-color: #FFFFFF;
     border-radius: 0.75rem;
     height: 3.5rem;
@@ -137,11 +145,6 @@ hr {
     border: 0.05rem solid #B8B8B8;
     opacity: 40%;
 }
-
-
-
-
-
 
 
 
