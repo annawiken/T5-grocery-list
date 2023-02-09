@@ -60,13 +60,14 @@ addToShoppingList();
 
 
 // delete all list elements from both shopping-list and in-cart-list
+// inspiration from: https://www.codecademy.com/forum_questions/4fc4e20c48eae700030456bb 
 function removeAll() {
     document.getElementById("shopping-list").innerHTML = "";
     document.getElementById("in-cart-list").innerHTML = "";
 }
 
 
-// Alternative to removeAll() without using onclick(), doesnt work for now:
+// alternative to removeAll() without using onclick(), doesnt work for now:
 /* function deleteAllButton() {
 
     const deleteAllButton = document.createElement('button');

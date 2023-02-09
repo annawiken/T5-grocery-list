@@ -3,13 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Inter&display=swap');
 
 
-/* PRE SETTINGS */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
+/* 20 PX = 1 REM */
 html {
     font-size: 20px
 }
@@ -20,8 +14,15 @@ body {
     background-color: #FFFDFA;
 }
 
+/* TEXT STYLING */
 .bought {
     text-decoration: line-through;
+}
+
+h3 {
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+    color: #1a1a1a;   
 }
 
 
@@ -57,6 +58,7 @@ header {
     border-radius: 0.75rem;
     font-family: 'Inter', sans-serif;
     font-size: 1rem;
+    color: #1a1a1a; 
     box-shadow: 1px 2.5px 4px 1px #d06d26;
 }
 
