@@ -42,7 +42,7 @@ function addToShoppingList() {
         btnBuyItem.addEventListener('click', () => {
             // remove list element from shopping-list
             resultElement.removeChild(listElement);
-            listElement.classList.add('buyed')
+            listElement.classList.add('bought')
             // move list element to in-cart-list
             inCartElement.appendChild(listElement);
         });
@@ -67,7 +67,6 @@ function removeAll() {
 
 
 // Alternative to removeAll() without using onclick(), doesnt work for now:
-
 /* function deleteAllButton() {
 
     const deleteAllButton = document.createElement('button');
