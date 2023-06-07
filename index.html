@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title> Grocery shopping list </title>
+    <title>Grocery shopping list</title>
     <meta name="viewport" content="width=device-width">
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/style.css">
@@ -14,32 +14,30 @@
     </header>
     <main>
         <!-- input with add button -->
-            <section id="header-box">
-                <input type="text" id="input-add-item" placeholder="Add new item ...">
-                <button id="btn-add-item"> <img src="./assets/plus_orange.svg"> </button>
-            </section> 
+        <section id="header-box">
+            <input type="text" id="input-add-item" placeholder="Add new item ...">
+            <button id="btn-add-item"> <img src="./assets/plus_orange.svg"> </button>
+        </section> 
 
-            <!-- shopping-list with action buttons -->
-            <section id="body-box">
-                <h3> Things to buy: </h3>
-                <ul id="shopping-list"></ul>
+        <!-- shopping-list with action buttons -->
+        <section id="body-box">
+            <h3> Things to buy: </h3>
+            <ul id="shopping-list"></ul>
 
-                <!-- visually separate shopping-list and in-cart-list -->
-                <hr size="2">
+            <!-- visually separate shopping-list and in-cart-list -->
+            <hr size="2">
 
-                    <!-- in-cart-list for bought items -->
-                <h3> Already in my cart: </h3>
-                <ul id="in-cart-list"></ul> 
+            <!-- in-cart-list for bought items -->
+            <h3> Already in my cart: </h3>
+            <ul id="in-cart-list"></ul> 
 
-                <!-- button to delete all items from both lists -->
-                <section class="flex-delete-button">
-                    <button class="btn-delete-all-items" onclick="removeAll()"> Delete all items </button>
-                </section>
+            <!-- button to delete all items from both lists -->
+            <section class="flex-delete-button">
+                <button class="btn-delete-all-items" onclick="removeAll()"> Delete all items </button>
             </section>
+        </section>
     </main>
 </body>
 </html>
 
-
-<!-- https://www.codehim.com/vanilla-javascript/simple-grocery-list-app-in-javascript/ -->
 

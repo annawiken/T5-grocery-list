@@ -1,4 +1,5 @@
 
+// Inspiration from: https://www.codehim.com/vanilla-javascript/simple-grocery-list-app-in-javascript/
 
 // add new item to shopping-list 
 function addToShoppingList() {
@@ -65,29 +66,4 @@ function removeAll() {
     document.getElementById("shopping-list").innerHTML = "";
     document.getElementById("in-cart-list").innerHTML = "";
 }
-
-
-// alternative to removeAll() without using onclick(), doesnt work for now:
-/* function deleteAllButton() {
-
-    const deleteAllButton = document.createElement('button');
-    const shoppingList = document.getElementById('shopping-list');
-    const inCartList = document.getElementById('in-cart-list');
-
-    deleteAllButton.classList.add('btn-delete-all-items');
-
-    deleteAllButton.addEventListener('click', deleteAllItems);
-    window.addEventListener('keyup', (event) => {
-        if(event.key === 'Enter') {
-            deleteAllItems();
-        }
-    });
-
-    function deleteAllItems() {
-        shoppingList.innerHTML = '';
-        inCartList.innerHTML = '';
-    }; 
-};
-
-deleteAllButton(); */
 

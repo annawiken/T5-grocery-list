@@ -9,9 +9,8 @@ html {
 }
 
 
-/* BACKGROUND OUTSIDE OF FUNTIONAL APP AREA */ 
 body {
-    background-color: #FFFDFA;
+    background-color: #ffffff;
 }
 
 
@@ -28,7 +27,7 @@ h3 {
 }
 
 
-/* HEADER (THE ONE INSIDE OF SHOPPING LIST) */
+/* HEADER INSIDE OF SHOPPING LIST) */
 header {
     font-size: 3rem;
     font-family: 'Gloria Hallelujah', sans-serif;
@@ -109,13 +108,16 @@ header {
     margin: 0 0.4rem;
 }
 
+.btn-delete-item-red {
+    padding-left: 16rem;
+}
 
-/* BODY OF SHOPPING LIST APP (THE CENTERED ONE) */
+/* BODY OF SHOPPING LIST APP */
 #body-box {
     background-color: #FCF9F7;
     margin: auto;
     width: 33rem;
-    height: 40rem; /* bruk flex for tilpasning senere */
+    height: 40rem;
     border-radius: 0 0 0.75rem 0.75rem;
     padding: 2rem 0 0 0;
 }
@@ -135,6 +137,9 @@ header {
     padding: 1rem 1rem;
     margin: 1rem 4rem;
     box-shadow: 1px 2.5px 4px 1px #e5e5e5;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
 }
 
 hr {
@@ -145,8 +150,6 @@ hr {
     border: 0.05rem solid #B8B8B8;
     opacity: 40%;
 }
-
-
 
 
 
